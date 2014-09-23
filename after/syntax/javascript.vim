@@ -7,13 +7,10 @@ endif
 syntax clear Function
 
 " Conceal 'function' with a lambda character
-syntax keyword jsNiceFunction function conceal cchar=λ
-
-syn region jsExpression start=+(+ end=+)+ contains=jsNiceFunction
-syn region jsBlock start=+{+ end=+}+ contains=jsNiceFunction
+syntax keyword jsFunction function conceal cchar=λ
 
 " Link up syntax
-hi link jsNiceFunction Function
+hi link jsFunction Function
 hi! link Conceal Function
 
 " Set conceallevel/cursor
