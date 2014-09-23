@@ -4,14 +4,14 @@ if !has('conceal')
 endif
 
 " Remove keywords to be re-added later
-syntax clear pythonOperator
+syntax clear Statement
 
 " Conceal 'lambda' with a lambda character
 syntax keyword pyNiceStatement lambda conceal cchar=λ
 
 " Link up syntax
 hi link pyNiceStatement Statement
-hi! link Conceal Operator
+hi! link Conceal Statement
 
 " Set conceallevel/cursor
 setlocal conceallevel=1

@@ -4,14 +4,14 @@ if !has('conceal')
 endif
 
 " Remove keywords to be re-added later
-syntax clear schemeSyntax
+syntax clear Statement
 
 " Conceal 'lambda' with a lambda character
 syntax keyword scmNiceLambda lambda conceal cchar=λ
 
 " Link up syntax
-hi link scmNiceLambda schemeSyntax
-hi! link Conceal schemeSyntax
+hi link scmNiceLambda Statement
+hi! link Conceal Statement
 
 " Set conceallevel/cursor
 setlocal conceallevel=1
