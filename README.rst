@@ -33,9 +33,9 @@ vim-lambdify makes efforts to ensure highlighting is kept.
 At the moment, the following languages have lambda conceal support through
 vim-lambdify:
 
-Python
-JavaScript
-Scheme
+- Python
+- JavaScript
+- Scheme
 
 
 More will likely be added overtime. These just happen to be languages I use
@@ -46,7 +46,7 @@ Acknowledgements
 Many thanks for the ideas and some implementation details taken from the
 following plugins:
 
-Twinside/vim-haskellConceal
-ehamberg/vim-cute-python
-dkinzer/vim-schemer
-tyok/js-mask
+- Twinside/vim-haskellConceal
+- ehamberg/vim-cute-python
+- dkinzer/vim-schemer
+- tyok/js-mask
