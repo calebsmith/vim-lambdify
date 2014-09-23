@@ -7,7 +7,7 @@ default:
 	make test
 
 test:
-	if ! [[ -d ~/.vim/after/syntax ]] ; then \
+	if [[ -d ~/.vim/after/syntax ]] ; then \
 		mkdir -p ~/.vim/after/syntax; \
 	fi; \
 	cp after/syntax/*.vim ~/.vim/after/syntax;
