@@ -12,7 +12,7 @@ build:
 	tar -cvf vim-lambdify.tar after/;
 
 clean:
-	if [[ -f ~/.vim/after/syntax/*.vim ]] ; then \
+	if [[ -f ~/.vim/after/syntax/python.vim ]] ; then \
 		rm ~/.vim/after/syntax/*.vim; \
 	fi; \
 	if [[ -f vim-lambdify.tar ]] ; then \
