@@ -9,11 +9,11 @@ various languages
 
 
 Requirements
-************
+------------
 Vim >= 7.3 (for the conceal feature)
 
 Installation
-************
+------------
 
 If you are using vundle, add this to your list of bundles::
 
@@ -22,7 +22,7 @@ If you are using vundle, add this to your list of bundles::
 Otherwise, copy the /after/syntax files into ~/.vim/after/syntax
 
 Overview
-********
+--------
 
 Vim's conceal feature allows for some text to be replaced with something else
 for display purposes, without changing the underlying representation of what
@@ -46,7 +46,7 @@ More will likely be added overtime. These just happen to be languages I use
 frequently that have lambdas or something akin to them.
 
 Acknowledgements
-****************
+----------------
 Many thanks for the ideas and some implementation details taken from the
 following plugins:
 
