@@ -4,6 +4,10 @@ vim-lambdify
 A vim plugin that conceals lambdas/inline functions with a lambda character for
 various languages
 
+
+![vim-lambdify-example](example/screenshot.png)
+
+
 Requirements
 ************
 Vim >= 7.3 (for the conceal feature)
