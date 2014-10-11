@@ -1,4 +1,4 @@
-; logic for the Game of Life in Scheme
+; logic for the Game of Life in Scheme. (Taken from calebsmith/weechat-plugins)
 
 (define (curry fun . args)
     (lambda x
