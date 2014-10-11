@@ -39,11 +39,13 @@ At the moment, the following languages have lambda conceal support through
 vim-lambdify:
 
 - Python
+- Ruby
 - JavaScript
 - Scheme
+- Erlang
 
 
-More will likely be added overtime. These just happen to be languages I use
+More will likely be added over time. These just happen to be languages I use
 frequently that have lambdas or something akin to them.
 
 Acknowledgements
