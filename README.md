@@ -43,7 +43,7 @@ vim-lambdify:
 - JavaScript
 - Scheme
 - Erlang
-
+- Java
 
 More will likely be added over time. These just happen to be languages I use
 frequently that have lambdas or something akin to them.
