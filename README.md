@@ -17,7 +17,7 @@ Installation
 
 If you are using vundle, add this to your list of bundles::
 
-    Bundle 'calebsmith/vim-lambdify'
+    Plugin 'calebsmith/vim-lambdify'
 
 Otherwise, copy the /after/syntax files into ~/.vim/after/syntax and
 /autoload/vimlambdify.vim into ~/.vim/autoload
