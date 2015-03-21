@@ -17,7 +17,7 @@ Installation
 
 If you are using vundle, add this to your list of bundles::
 
-    Bundle 'calebsmith/vim-lambdify'
+    Plugin 'calebsmith/vim-lambdify'
 
 Otherwise, copy the /after/syntax files into ~/.vim/after/syntax and
 /autoload/vimlambdify.vim into ~/.vim/autoload
@@ -43,7 +43,20 @@ vim-lambdify:
 - JavaScript
 - Scheme
 - Erlang
+- Java
 
+For Java it's necessary to change this line in the Java syntax file (`$VIMRUNTIME\syntax\java.vim`):
+
+```vim
+syn match javaError "<<<\|\.\.\|=>\|||=\|&&=\|[^-]->\|\*\/"
+```
+
+to:
+
+```vim
+syn match javaError "<<<\|\.\.\|=>\|||=\|&&=\|\*\/"
+```
+Otherwise the `->` operator will be highlighted as error.
 
 More will likely be added over time. These just happen to be languages I use
 frequently that have lambdas or something akin to them.
