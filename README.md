@@ -45,6 +45,19 @@ vim-lambdify:
 - Erlang
 - Java
 
+For Java it's necessary to change this line in the Java syntax file (`$VIMRUNTIME\syntax\java.vim`):
+
+```vim
+syn match javaError "<<<\|\.\.\|=>\|||=\|&&=\|[^-]->\|\*\/"
+```
+
+to:
+
+```vim
+syn match javaError "<<<\|\.\.\|=>\|||=\|&&=\|\*\/"
+```
+Otherwise the `->` operator will be highlighted as error.
+
 More will likely be added over time. These just happen to be languages I use
 frequently that have lambdas or something akin to them.
 
