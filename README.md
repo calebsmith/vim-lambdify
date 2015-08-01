@@ -44,6 +44,7 @@ vim-lambdify:
 - Scheme
 - Erlang
 - Java
+- C#
 
 For Java it's necessary to change this line in the Java syntax file (`$VIMRUNTIME\syntax\java.vim`):
 
