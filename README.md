@@ -21,8 +21,11 @@ If you are using vundle or NeoBundle, add this to your list of bundles::
 
     Plugin 'calebsmith/vim-lambdify'
 
-Otherwise, copy the /after/syntax files into ~/.vim/after/syntax and
-/autoload/vimlambdify.vim into ~/.vim/autoload
+Another option is manually copying the /after/syntax files into
+~/.vim/after/syntax and /autoload/vimlambdify.vim into ~/.vim/autoload
+
+A third option is to clone this repo and run make, which will automatically
+do the work of copying the appropriate files to a location within ~/.vim
 
 Overview
 --------
