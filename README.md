@@ -12,10 +12,12 @@ Requirements
 ------------
 Vim >= 7.3 (for the conceal feature)
 
+Some file types rely on syntax files built-in to Vim >= 7.4
+
 Installation
 ------------
 
-If you are using vundle, add this to your list of bundles::
+If you are using vundle or NeoBundle, add this to your list of bundles::
 
     Plugin 'calebsmith/vim-lambdify'
 
@@ -57,7 +59,7 @@ to:
 ```vim
 syn match javaError "<<<\|\.\.\|=>\|||=\|&&=\|\*\/"
 ```
-Otherwise the `->` operator will be highlighted as error.
+Otherwise the `->` operator will be highlighted as error by default.
 
 More will likely be added over time. These just happen to be languages I use
 frequently that have lambdas or something akin to them.
