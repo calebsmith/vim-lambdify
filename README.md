@@ -17,9 +17,13 @@ Some file types rely on syntax files built-in to Vim >= 7.4
 Installation
 ------------
 
-If you are using vundle or NeoBundle, add this to your list of bundles::
+If you are using ![Vundle](https://github.com/VundleVim/Vundle.vim) or ![NeoBundle](https://github.com/Shougo/neobundle.vim), add this to your list of bundles::
 
     Plugin 'calebsmith/vim-lambdify'
+
+For ![vim-plug](https://github.com/junegunn/vim-plug) use:
+
+    Plug 'calebsmith/vim-lambdify'
 
 Another option is manually copying the /after/syntax files into
 ~/.vim/after/syntax and /autoload/vimlambdify.vim into ~/.vim/autoload
@@ -51,7 +55,7 @@ vim-lambdify:
 - Java
 - C#
 
-For Java it's necessary to change this line in the Java syntax file (`$VIMRUNTIME\syntax\java.vim`):
+For Java it's necessary to change this line in the default Java syntax file (`$VIMRUNTIME\syntax\java.vim`):
 
 ```vim
 syn match javaError "<<<\|\.\.\|=>\|||=\|&&=\|[^-]->\|\*\/"
@@ -62,7 +66,7 @@ to:
 ```vim
 syn match javaError "<<<\|\.\.\|=>\|||=\|&&=\|\*\/"
 ```
-Otherwise the `->` operator will be highlighted as error by default.
+Otherwise the `->` operator will be highlighted as error by default. You can use the ![vim-java](https://github.com/vim-jp/vim-java) plugin, that already has this correction.
 
 More will likely be added over time. These just happen to be languages I use
 frequently that have lambdas or something akin to them.
