@@ -47,6 +47,7 @@ vim-lambdify makes efforts to ensure highlighting is kept.
 At the moment, the following languages have lambda conceal support through
 vim-lambdify:
 
+- Clojure
 - Python
 - Ruby
 - JavaScript
