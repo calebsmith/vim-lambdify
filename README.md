@@ -56,6 +56,8 @@ vim-lambdify:
 - Java
 - C#
 
+The [vim-polyglot](https://github.com/sheerun/vim-polyglot) plugin is a dependence for the JavaScript arrow function (`=>`)  work properly, since the default syntax file is outdated.
+
 For Java it's necessary to change this line in the default Java syntax file (`$VIMRUNTIME\syntax\java.vim`):
 
 ```vim
