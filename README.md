@@ -48,13 +48,18 @@ At the moment, the following languages have lambda conceal support through
 vim-lambdify:
 
 - Clojure
+- Scheme
+- Erlang
+- Haskell
+- Elm
 - Python
 - Ruby
 - JavaScript
-- Scheme
-- Erlang
 - Java
 - C#
+
+N.B.
+----
 
 The [vim-polyglot](https://github.com/sheerun/vim-polyglot) plugin is a dependency for the JavaScript arrow function (`=>`) to work properly, since the default syntax file is outdated.
 
@@ -73,6 +78,8 @@ Otherwise the `->` operator will be highlighted as error by default. You can use
 
 More will likely be added over time. These just happen to be languages I use
 frequently that have lambdas or something akin to them.
+
+Feel free to open a pull request to incorporate an unsupported language.
 
 Acknowledgements
 ----------------
